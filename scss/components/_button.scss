@@ -1,0 +1,15 @@
+.register_content {
+    button {
+        color: white;
+        background-color: $color-pp-2;
+        padding: $pd-6 $pd-7;
+        border-color: $color-pp-2;
+        border-width: 0.5px;
+        transition: all 0.5s;
+
+        &:hover {
+            background-color: $color-white;
+            color: $color-pp-2;
+        }
+    }
+}

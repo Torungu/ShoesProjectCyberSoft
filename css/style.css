@@ -1,0 +1,323 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a:hover {
+  text-decoration: unset;
+  color: #000;
+}
+
+.detail {
+  margin: 50px 0;
+}
+.detail .thumb {
+  background: #f8f8f8;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.detail .thumb img {
+  width: 100%;
+}
+.detail .content h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #000000;
+}
+.detail .content .size h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1ed90e;
+  margin-bottom: 15px;
+}
+.detail .content .size ul {
+  list-style: none;
+}
+.detail .content .size ul li {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #ccc;
+  padding: 10px;
+  font-weight: 700;
+}
+.detail .content .price {
+  font-size: 23px;
+  font-weight: 600;
+  color: #fc0303;
+}
+.detail .content .quatity {
+  margin: 20px 0 0;
+}
+.detail .content .quatity input {
+  width: 40px;
+  text-align: center;
+  border: none;
+}
+.detail .content .quatity span {
+  background: linear-gradient(180deg, #6181f3 0%, #7c97f5 99.48%);
+  color: #ffffff;
+  padding: 10px 15px;
+}
+.detail .content .button {
+  display: inline-block;
+  background: linear-gradient(270deg, rgba(62, 32, 248, 0.9) 5.14%, #d017ee 89.71%);
+  color: #ffffff;
+  padding: 10px 30px;
+  margin-top: 15px;
+}
+
+header .navbar {
+  background-color: #000000;
+  height: 50px;
+}
+header .navbar .navbar-brand {
+  margin: 10px;
+  object-fit: cover;
+}
+header .navbar .navbar-collapse .nav-link {
+  font-size: 16px;
+  font-weight: 300;
+  color: #f6f6f6;
+  padding-right: 30px !important;
+  margin-top: 3px !important;
+}
+header .navbar .navbar-collapse .nav-link-cart {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #f6f6f6;
+  padding-right: 30px !important;
+}
+header .nav {
+  background-color: #ffffff;
+  height: 50px;
+  padding-top: 12px;
+  padding-left: 30px;
+}
+header .nav .nav-link-2 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+  margin-right: 30px !important;
+}
+header .nav .is-active {
+  font-weight: 400;
+  position: relative;
+}
+header .nav .is-active::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  background-color: #000000;
+}
+
+.register_content button {
+  color: white;
+  background-color: #ae18e2;
+  padding: 8px 60px;
+  border-color: #ae18e2;
+  border-width: 0.5px;
+  transition: all 0.5s;
+}
+.register_content button:hover {
+  background-color: #ffffff;
+  color: #ae18e2;
+}
+
+#carouselAPI {
+  position: relative;
+}
+#carouselAPI .carousel-indicators {
+  bottom: 35px;
+}
+#carouselAPI .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#carouselAPI .carousel-indicators li.active {
+  background-color: #eee;
+}
+#carouselAPI .carousel-control-prev {
+  left: 110px;
+}
+#carouselAPI .carousel-control-prev .carousel-control-prev-icon {
+  background-image: url("../images/Polygon 2.png");
+  width: 40px;
+  height: 50px;
+}
+#carouselAPI .carousel-control-next {
+  right: 110px;
+}
+#carouselAPI .carousel-control-next .carousel-control-next-icon {
+  background-image: url("../images/Polygon 1.png");
+  width: 40px;
+  height: 50px;
+}
+#carouselAPI .carousel-item {
+  padding-bottom: 80px;
+  background-image: url("../images/image-6.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+#carouselAPI .carousel-item .row {
+  align-items: center;
+}
+#carouselAPI .carousel-item .row img {
+  margin-left: 80px;
+}
+#carouselAPI .carousel-item .carousel-content h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #000000;
+}
+#carouselAPI .carousel-item .carousel-content p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #000000;
+}
+#carouselAPI .carousel-item .carousel-content span {
+  background-color: #f8b653;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  padding: 10px 30px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.product {
+  margin: 40px 0;
+}
+.product .title {
+  font-size: 40px;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.product .card {
+  background: #f8f8f8;
+  border: none;
+  margin-bottom: 50px;
+}
+.product .card .thumb {
+  padding: 30px;
+  text-align: center;
+}
+.product .card .thumb img {
+  width: 100%;
+}
+.product .card .content {
+  padding: 0 15px;
+}
+.product .card .content h3 {
+  font-size: 23px;
+  font-weight: 300;
+  color: #000000;
+}
+.product .card .content p {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(203, 201, 201);
+  height: 80px;
+}
+.product .card .button {
+  display: flex;
+  align-items: center;
+}
+.product .card .button div {
+  width: 50%;
+  text-align: center;
+  padding: 15px;
+}
+.product .card .button div:first-child {
+  background-color: #f8b653;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+}
+.product .card .button div:last-child {
+  background-color: #dedddc;
+  font-weight: 600;
+  color: #000000;
+}
+
+.register_content {
+  margin: 60px 0;
+}
+.register_content h1 {
+  text-align: center;
+}
+.register_content .form-group {
+  margin-bottom: 10px;
+}
+.register_content .form-group .form-control {
+  border-style: none;
+}
+.register_content .form-group .form-control:focus {
+  box-shadow: 5px 5px 5px 5px #ae18e2;
+}
+.register_content .form-group::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: #ae18e2;
+}
+.register_content .form-group span {
+  font-size: 12px;
+}
+.register_content .form_check {
+  accent-color: #ae18e2;
+}
+.register_content .form_check::after {
+  transform: scaleX(0);
+}
+
+.footer {
+  margin-top: 50px;
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul li {
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.footer ul li a {
+  color: #000;
+}
+.footer ul li a.link {
+  color: #fc0303;
+}
+.footer .border-left {
+  border-left: 1px solid #ddd;
+  padding-left: 30px;
+}
+.footer h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.footer .top {
+  padding: 30px 0;
+}
+.footer .bottom {
+  background-color: #ececec;
+  padding: 40px 0 10px;
+}/*# sourceMappingURL=style.css.map */

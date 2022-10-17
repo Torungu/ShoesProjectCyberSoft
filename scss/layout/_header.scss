@@ -1,0 +1,73 @@
+// header {
+//     background-color: $color-black;
+//     padding: $pd-3 0;
+
+//     i {
+//         color: $color-white;
+//         font-size: $fs-5;
+//         margin-right: $mg-2;
+//     }
+
+//     a {
+//         color: gray;
+//         text-decoration: none;
+//         margin-right: $mg-2;
+//         transition: all 0.5s;
+
+//         &:hover {
+//             color: $color-white;
+//         }
+//     }
+// }
+
+header {
+    .navbar {
+        background-color: $color-black;
+        height: 50px;
+
+        .navbar-brand {
+            margin: 10px;
+            object-fit: cover
+        }
+
+        .navbar-collapse {
+            .nav-link {
+                @include style-text($fs-1, $fw-0, $color-white-2);
+                padding-right: 30px !important;
+                margin-top: 3px !important;
+            }
+
+            .nav-link-cart {
+                @include style-text($fs-3, $fw-0, $color-white-2);
+                padding-right: 30px !important;
+            }
+        }
+    }
+
+    .nav {
+        background-color: $color-white;
+        height: 50px;
+        padding-top: 12px;
+        padding-left: 30px;
+
+        .nav-link-2 {
+            @include style-text($fs-7, $fw-0, $color-black);
+            margin-right: 30px !important;
+        }
+
+        .is-active {
+            font-weight: 400;
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -1px;
+                width: 100%;
+                height: 2px;
+                left: 0;
+                background-color: $color-black;
+            }
+        }
+    }
+}

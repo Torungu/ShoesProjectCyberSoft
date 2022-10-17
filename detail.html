@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>DETAIL</title>
+
+    <!-- font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BS4 and CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="container navbar navbar-expand-md">
+            <!-- Brand -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="./images/image 3.png" alt="logo" />
+            </a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link-cart" href="#"><img src="./images/cart.png" alt="" />(1)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./register.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="container nav">
+            <a class="nav-link-2 is-active" href="./index.html">Home</a>
+            <a class="nav-link-2" href="#">Men</a>
+            <a class="nav-link-2" href="#">Women</a>
+            <a class="nav-link-2" href="#">Kid</a>
+            <a class="nav-link-2" href="#">Sport</a>
+        </nav>
+    </header>
+
+    <div class="detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="thumb">
+                        <img id="hinh-anh" alt="" />
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="content">
+                        <h2 id="ten"></h2>
+                        <p id="mo-ta"></p>
+                        <div class="size">
+                            <h3>Available size</h3>
+                            <ul>
+                                <li>38</li>
+                                <li>39</li>
+                                <li>40</li>
+                                <li>41</li>
+                                <li>42</li>
+                            </ul>
+                        </div>
+                        <div id="gia" class="price"></div>
+                        <div class="quatity">
+                            <span>+</span>
+                            <input type="text" value="1" />
+                            <span>-</span>
+                        </div>
+                        <a href="#" class="button">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="container">
+            <h2 class="title">-Relate Feature -</h2>
+            <div id="productDisplay" class="row">
+                <!-- <div class="col-md-4">
+                        <div class="card">
+                            <div class="thumb">
+                                <img src="images/image 5.png" alt="" />
+                            </div>
+                            <div class="content">
+                                <h3>Adidas Prophere</h3>
+                                <p>short descript ...</p>
+                            </div>
+                            <div class="button">
+                                <div>Buy now</div>
+                                <div>85$</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="thumb">
+                                <img src="images/image 5.png" alt="" />
+                            </div>
+                            <div class="content">
+                                <h3>Adidas Prophere</h3>
+                                <p>short descript ...</p>
+                            </div>
+                            <div class="button">
+                                <div>Buy now</div>
+                                <div>85$</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="thumb">
+                                <img src="images/image 5.png" alt="" />
+                            </div>
+                            <div class="content">
+                                <h3>Adidas Prophere</h3>
+                                <p>short descript ...</p>
+                            </div>
+                            <div class="button">
+                                <div>Buy now</div>
+                                <div>85$</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="thumb">
+                                <img src="images/image 5.png" alt="" />
+                            </div>
+                            <div class="content">
+                                <h3>Adidas Prophere</h3>
+                                <p>short descript ...</p>
+                            </div>
+                            <div class="button">
+                                <div>Buy now</div>
+                                <div>85$</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="thumb">
+                                <img src="images/image 5.png" alt="" />
+                            </div>
+                            <div class="content">
+                                <h3>Adidas Prophere</h3>
+                                <p>short descript ...</p>
+                            </div>
+                            <div class="button">
+                                <div>Buy now</div>
+                                <div>85$</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="thumb">
+                                <img src="images/image 5.png" alt="" />
+                            </div>
+                            <div class="content">
+                                <h3>Adidas Prophere</h3>
+                                <p>short descript ...</p>
+                            </div>
+                            <div class="button">
+                                <div>Buy now</div>
+                                <div>85$</div>
+                            </div>
+                        </div>
+                    </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>GET HELP</h5>
+                        <ul>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Shopping</a></li>
+                            <li><a href="#">NikeID</a></li>
+                            <li><a href="#">Nike+</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="border-left">
+                            <h5>ORDERS</h5>
+                            <ul>
+                                <li><a href="#">Payment options</a></li>
+                                <li><a href="#">Shipping and delivery</a></li>
+                                <li><a href="#">Returns</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="border-left">
+                            <h5>REGISTER</h5>
+                            <ul>
+                                <li>Create one account to manage everything you with nike, from your shopping
+                                    preferences to your Nike+ activity</li>
+                                <li><a href="#" class="link">Learn more</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>EMAIL SIGN UP</h5>
+                        <ul>
+                            <li>Be the first to know about new products and special offers</li>
+                            <li><a href="#" class="link">Sign up now</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="border-left">
+                            <h5>GIFT CARDS</h5>
+                            <ul>
+                                <li>Give the gift that always fits</li>
+                                <li><a href="#" class="link">View cards</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="border-left">
+                            <h5>STORES NEAR YOU</h5>
+                            <ul>
+                                <li>Locate a nike retail store or authorized retailer</li>
+                                <li><a href="#" class="link">Sign up now</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0/axios.min.js"
+        integrity="sha512-26uCxGyoPL1nESYXHQ+KUmm3Maml7MEQNWU8hIt1hJaZa5KQAQ5ehBqK6eydcCOh6YAuZjV3augxu/5tY4fsgQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./models/product.js"></script>
+
+    <script src="./controllers/index.js"></script>
+    <script src="./controllers/detail.js"></script>
+</body>
+
+</html>
